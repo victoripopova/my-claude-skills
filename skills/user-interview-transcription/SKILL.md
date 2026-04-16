@@ -97,28 +97,19 @@ What was the dominant emotional tone of the session?]
 ## Key Themes & Insights
 [3–6 bullet points. Each should be a meaningful insight, not just a topic label.
 Good: "Participant relies heavily on workarounds because the core feature feels unreliable"
-Bad: "Feature reliability"]
+Bad: "Feature reliability"
+Where a quote sharpens an insight, embed it directly in the bullet as evidence:
+- Insight description. > "Quote illustrating it." — Speaker]
 
 ---
 
 ## Pain Points
-[Bulleted list of specific frustrations, blockers, or confusing moments mentioned.
-Where a quote captures the pain point particularly well, embed it directly in the bullet
-as supporting evidence. Format:
+[Bulleted list of specific frustrations, blockers, or confusing moments.
+Where a quote captures the pain point particularly well, embed it directly in the bullet:
 - Pain point description. > "Quote illustrating it." — Speaker]
 
 ---
 
-## Key Themes & Insights
-[Same as above — where a quote sharpens an insight, embed it inline in the bullet rather
-than saving it for a separate section. A quote should always be attached to the point it
-supports, not float on its own.]
-
----
-
-## Suggested Follow-ups
-[Optional: 1–3 questions or areas worth exploring in future sessions, based on
-anything that came up but wasn't fully explored.]
 ```
 
 Output the summary as a separate `.docx` file, or inline in chat if the user prefers.
@@ -128,6 +119,11 @@ Output the summary as a separate `.docx` file, or inline in chat if the user pre
 ## Step 5 — Deliver the Outputs
 
 Always produce both outputs unless the user explicitly asked for only one.
+
+**File naming format:** `DD-MM-YY_FirstnameLastname_transcript.docx` and `DD-MM-YY_FirstnameLastname_summary.docx`
+- Use the date of the interview if known, otherwise today's date
+- Use the interviewee's name (the participant, not the interviewer)
+- Example: `16-04-25_AliFireouzbakhsh_transcript.docx` and `16-04-25_AliFireouzbakhsh_summary.docx`
 
 Present them clearly:
 - "Here's your **clean transcript** → [file]"
